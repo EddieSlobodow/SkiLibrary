@@ -13,8 +13,12 @@
   }
 }
 
+h1 {
+  margin-bottom: 1px;
+}
+
 .App-header {
-  background-color: #282c34;
+  background-color: #282c3400;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,12 +31,27 @@
 .App-link {
   color: #61dafb;
 }
+.background {
+  background-image: url(./images/ezgif-1-19d868a002.jpg);
+  background-size: cover;
+    background-position: center;
+    width: 100vw; /* 100% of viewport width */
+    height: 100vh; /* 100% of viewport height */
+    position: fixed;
+    z-index: -1;
+}
 
 .grid-buttons {
   font-size: 30px;
   color: rgb(95, 95, 95);
   font-weight: bold;
   cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+
+.grid-buttons:hover {
+  background-color: #e7e7e7; /* Change background color */
 }
 
 .button-grid {
@@ -40,6 +59,9 @@
   gap: 10px;
   border: 10px;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
 }
 .button-grid button{
   padding: 30px 16px;
