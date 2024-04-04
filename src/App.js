@@ -54,27 +54,27 @@ function App() {
         setVideoDesc(<p>Backside 270 Out</p>);
         break;
       case 7:
-        setVideoContent(<iframe width="560" height="315" src="https://www.youtube.com/embed/bTKyc9XzspI?si=1n-VAasZrLHWFBMP&amp;controls=0&amp;mute=1&amp;autoplay=1&amp;clip=UgkxkDoVL2HPybpg51TqyfJilrLg3CmBJ2f7&amp;clipt=ENTjERjcihI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        setVideoContent(<iframe width="560" height="315" src="https://www.youtube.com/embed/gJ21zmTRX-k?si=aVhtJ-5p3m3A4AO1&amp;controls=0&amp;mute=1&amp;autoplay=1&amp;clip=Ugkx_Oy_V87OtpkgUPTRAkfx2xYE5z_LQTDH&amp;clipt=EMz5BRjUoAY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         );
         setVideoDesc(<p>Frontside Switch Up</p>);
         break;
       case 8:
-        setVideoContent(<iframe width="560" height="315" src="https://www.youtube.com/embed/bTKyc9XzspI?si=7z7rF3wal76sQQjY&amp;controls=0&amp;mute=1&amp;autoplay=1&amp;clip=Ugkxa45PRBbOZUaxEiLag59XvyTNzXR8vjL4&amp;clipt=ELn7ExjBohQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        setVideoContent(<iframe width="560" height="315" src="https://www.youtube.com/embed/lY472lcmByQ?si=kZNgHNkxHA6cc_K3&amp;controls=0&amp;mute=1&amp;autoplay=1&amp;clip=Ugkxf9DphBXJZVYswDakmhxpeCBklf36nhDh&amp;clipt=ENDcEBjYgxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         );
         setVideoDesc(<p>Backside Swith Up</p>);
         break;
       case 9:
-        setVideoContent(<iframe width="560" height="315" src="https://www.youtube.com/embed/bTKyc9XzspI?si=GzvwQLjOMmmVGW9c&amp;controls=0&amp;mute=1&amp;autoplay=1&amp;clip=UgkxU4_be6ENtdskpqabA4okmXsGBWdd7bsC&amp;clipt=EJDtFxiYlBg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        setVideoContent(<iframe width="560" height="315" src="https://www.youtube.com/embed/AvDXXH9w0fk?si=_oqpRhHTodkAlPdP&amp;controls=0&amp;mute=1&amp;autoplay=1&amp;clip=Ugkx8-gCMKohNiydHo4ZUdDu8JiSHDublpcC&amp;clipt=EOWyJBjt2SQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         );
         setVideoDesc(<p>K-Fed</p>);
         break;
       case 10:
-        setVideoContent(<iframe width="560" height="315" src="https://www.youtube.com/embed/bTKyc9XzspI?si=559j_NNFwCztKu16&amp;controls=0&amp;mute=1&amp;autoplay=1&amp;clip=UgkxJKtCyPnd_pYPF7H164J7s_pERJj3P9wl&amp;clipt=EJXuGhidlRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        setVideoContent(<iframe width="560" height="315" src="https://www.youtube.com/embed/AvDXXH9w0fk?si=TkkPD3Lode3WMkJG&amp;controls=0&amp;mute=1&amp;autoplay=1&amp;clip=UgkxBzmFygw3YdeluGi7zjD1_t_1D9W3_kUQ&amp;clipt=EIbWBxiO_Qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         );
         setVideoDesc(<p>Britney</p>);
         break;
       case 11:
-        setVideoContent(<iframe width="560" height="315" src="https://www.youtube.com/embed/CDG8dLySACw?si=m6dSX3m2mNdpZZE8&amp;controls=0&amp;mute=1&amp;autoplay=1&amp;clip=UgkxaAeOIUPR6-CqM_cYwYKfNk-fw2lgtYK7&amp;clipt=EJaBChieqAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        setVideoContent(<iframe width="560" height="315" src="https://www.youtube.com/embed/oLuLDfcTwT0?si=7krbuMh2IO_0B7WB&amp;controls=0&amp;mute=1&amp;autoplay=1&amp;clip=UgkxV2SG-6wmZjUsQgTWaDwy7litV69pLsWS&amp;clipt=EL_2CRjHnQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         );
         setVideoDesc(<p>540</p>);
         break;
@@ -87,6 +87,41 @@ function App() {
         setVideoContent(<iframe width="560" height="315" src="https://www.youtube.com/embed/iJA06Yan_OQ?si=9zUExW3wl-04rNLw&amp;controls=0&amp;mute=1&amp;autoplay=1&amp;clip=UgkxlB5mZTchDIRvfdEmbRQb-ZWv5AKMjv1L&amp;clipt=ENyuBRjk1QU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         );
         setVideoDesc(<p>Backflip</p>);
+        break;
+      case 14:
+        setVideoContent(<iframe width="560" height="315" src="https://www.youtube.com/embed/gJ21zmTRX-k?si=V_C65NaYrHXNIK2o&amp;controls=0&amp;mute=1&amp;autoplay=1&amp;clip=UgkxnaKyKHJNmRU5Ekdgn47Y6XY5Yfq0OTWh&amp;clipt=ELuNBBjDtAQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        );
+        setVideoDesc(<p>270 On</p>);
+        break;
+      case 15:
+        setVideoContent(<iframe width="560" height="315" src="https://www.youtube.com/embed/QIaeu0Zsx-A?si=DiQKhgIwXp8yTSCe&amp;controls=0&amp;mute=1&amp;autoplay=1&amp;clip=UgkxLveHS3CAbY3xWMQafK3zvcNIxw0Pocbt&amp;clipt=EJn4BRihnwY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        );
+        setVideoDesc(<p>Frontside 450 Out</p>);
+        break;
+      case 16:
+        setVideoContent(<iframe width="560" height="315" src="https://www.youtube.com/embed/zLFGulQ5TpY?si=il2SAmLK0Cwf1R5d&amp;controls=0&amp;mute=1&amp;autoplay=1&amp;clip=Ugkx4i44hDGi6tEohAJql35bBtPX-XxS9qwo&amp;clipt=ELiOAxjAtQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        );
+        setVideoDesc(<p>Backside 450 Out</p>);
+        break;
+      case 17:
+        setVideoContent(<iframe width="560" height="315" src="https://www.youtube.com/embed/gJ21zmTRX-k?si=es3LRhvw0tml7hAn&amp;controls=0&amp;mute=1&amp;autoplay=1&amp;clip=UgkxVTFBNCTq45wYS6TfOWgmS8KZVGtmadPW&amp;clipt=EIyxGBiU2Bg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        );
+        setVideoDesc(<p>Lazy Boy 360</p>);
+        break;
+      case 18:
+        setVideoContent(<iframe width="560" height="315" src="https://www.youtube.com/embed/1hcxwDotQw4?si=C52pnjC0MpfSRwZT&amp;controls=0&amp;mute=1&amp;autoplay=1&amp;clip=Ugkx-JKwl-AtCnM8RdaQ3uwRpTPRk03oAXJX&amp;clipt=EPCoAhj4zwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        );
+        setVideoDesc(<p>Double Nose Grab</p>);
+        break;
+      case 19:
+        setVideoContent(<iframe width="560" height="315" src="https://www.youtube.com/embed/wWgCIEpE0Ug?si=nlpb8t3LRXlIgbOw&amp;controls=0&amp;mute=1&amp;autoplay=1&amp;clip=UgkxvzJ-F5K_c__W_pJ9jWAY70Cbb1w08HPr&amp;clipt=EMOxDRjL2A0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        );
+        setVideoDesc(<p>Mute Grab</p>);
+        break;
+      case 20:
+        setVideoContent(<iframe width="560" height="315" src="https://www.youtube.com/embed/GzNy3igWPAo?si=AKq1p-gW68oNbSGP&amp;controls=0&amp;mute=1&amp;autoplay=1&amp;clip=UgkxFFh604TH1WZ7wNEbaDs6fNcG0HEkg3xB&amp;clipt=EIvVRBiT_EQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        );
+        setVideoDesc(<p>Rodeo 540</p>);
         break;
       default:
         setVideoContent(<p>Error</p>);
@@ -106,7 +141,7 @@ function App() {
     );
   };
 
-  const buttonData = ["50-50", "Shifty", "180", "Box Slide", "360", "Frontside 270 Out", "Backside 270 Out", "Frontside Switch Up", "Backside Switch Up", "K-Fed", "Britney",  "540", "720", "Backflip", "Placeholder", "Placeholder", "Placeholder", "Placeholder", "Placeholder", "Placeholder", "Placeholder", "Placeholder", "Placeholder", "Placeholder", "Placeholder", "Placeholder", "Placeholder", "Placeholder", "Placeholder", "Placeholder"];
+  const buttonData = ["50-50", "Shifty", "180", "Box Slide", "360", "Frontside 270 Out", "Backside 270 Out", "Frontside Switch Up", "Backside Switch Up", "K-Fed", "Britney",  "540", "720", "Backflip", "270 On", "Frontside 450 Out", "Backside 450 Out", "Lazy Boy 360", "Double Nose Grab", "Mute Grab", "Rodeo 540", "Placeholder", "Placeholder", "Placeholder", "Placeholder", "Placeholder", "Placeholder", "Placeholder", "Placeholder", "Placeholder"];
   return (
     <div className="App">
       <div className="background"></div>
