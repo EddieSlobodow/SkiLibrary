@@ -1,5 +1,6 @@
 import './App.css';
 import React, { useState } from 'react';
+import Difficulty from './Difficulty.js';
 
 
 function App() {
@@ -123,6 +124,31 @@ function App() {
         );
         setVideoDesc(<p>Rodeo 540</p>);
         break;
+      case 21:
+        setVideoContent(<iframe width="560" height="315" src="https://www.youtube.com/embed/48rpJlnKebA?si=_IswOROQzUE6J7KA&amp;controls=0&amp;mute=1&amp;autoplay=1&amp;clip=UgkxErG9VHt1YFEmN7gDRt1DJNo6C24LbF10&amp;clipt=EOSODBjstQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        );
+        setVideoDesc(<p>Front Flip</p>);
+        break;
+      case 22:
+        setVideoContent(<iframe width="560" height="315" src="https://www.youtube.com/embed/48rpJlnKebA?si=lAUWtKrn0sNKrjTY&amp;controls=0&amp;mute=1&amp;autoplay=1&amp;clip=UgkxqKQZlsnYODdaZd99lIgWq_z3N5ctWQZ2&amp;clipt=EOXhIxjtiCQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        );
+        setVideoDesc(<p>Lincoln Loop</p>);
+        break;
+      case 23:
+        setVideoContent(<iframe width="560" height="315" src="https://www.youtube.com/embed/sGnRUkBalgg?si=CoOiil4FVNGBsqo0&amp;controls=0&amp;mute=1&amp;autoplay=1&amp;clip=UgkxuT8vPiWSHfXw-wTEe_UE52CxXUGWJ1ci&amp;clipt=EIw9GJRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        );
+        setVideoDesc(<p>Flatspin 360</p>);
+        break;
+      case 24:
+        setVideoContent(<iframe width="560" height="315" src="https://www.youtube.com/embed/wWgCIEpE0Ug?si=Vqxb3Bu00rRwQkYJ&amp;controls=0&amp;mute=1&amp;autoplay=1&amp;clip=UgkxQPYJCafQ02SjkJ8gWhqgdxI0uEK5H2El&amp;clipt=EKzAFRi05xU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        );
+        setVideoDesc(<p>Japan Grab</p>);
+        break;
+      case 25:
+        setVideoContent(<iframe width="560" height="315" src="https://www.youtube.com/embed/x4wnHnnFPFA?si=5H_ST7Wk1USrNtBX&amp;controls=0&amp;mute=1&amp;autoplay=1&amp;clip=Ugkx67zTjc9bT029qJcLfaD5A7Bp_EVG_4Bd&amp;clipt=EJW1CBj_5Ag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        );
+        setVideoDesc(<p>Misty 540</p>);
+        break;
       default:
         setVideoContent(<p>Error</p>);
         setVideoDesc(<p></p>);
@@ -134,14 +160,18 @@ function App() {
   const ButtonGrid = ({ buttonData }) => {
     return (
       <div className="button-grid">
-        {buttonData.map((buttonText, index) => (
+        {buttonData.map((buttonText, index) => {
+          if (buttonText === "beginnerComponent") return <Difficulty color="rgb(95, 195, 95)" text="Beginner" />;
+          if (buttonText === "intermediateComponent") return <Difficulty color="rgb(255, 207, 64)" text="Intermediate" />;
+          return(
           <button class="grid-buttons" key={index} onClick={() => onButtonClick(index)} >{buttonText}</button>
-        ))}
+          );
+        })}
       </div>
     );
   };
 
-  const buttonData = ["50-50", "Shifty", "180", "Box Slide", "360", "Frontside 270 Out", "Backside 270 Out", "Frontside Switch Up", "Backside Switch Up", "K-Fed", "Britney",  "540", "720", "Backflip", "270 On", "Frontside 450 Out", "Backside 450 Out", "Lazy Boy 360", "Double Nose Grab", "Mute Grab", "Rodeo 540", "Placeholder", "Placeholder", "Placeholder", "Placeholder", "Placeholder", "Placeholder", "Placeholder", "Placeholder", "Placeholder"];
+  const buttonData = ["beginnerComponent","50-50", "Shifty", "180", "Box Slide", "360", "Frontside 270 Out", "Backside 270 Out", "Frontside Switch Up", "Backside Switch Up", "K-Fed", "Britney",  "540", "720", "Backflip", "270 On", "Frontside 450 Out", "Backside 450 Out", "Lazy Boy 360", "intermediateComponent", "Double Nose Grab", "Mute Grab", "Rodeo 540", "Front Flip", "Lincoln Loop", "Flatspin 360", "Japan Grab", "Misty 540", "Placeholder", "Placeholder", "Placeholder", "Placeholder"];
   return (
     <div className="App">
       <div className="background"></div>
