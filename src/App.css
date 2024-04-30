@@ -50,6 +50,19 @@ h1 {
   border: none;
 }
 
+.redirect {
+  border: none;
+  background-color: #cbcbcb;
+  margin: 2px;
+  border-radius: 5px;
+  width: auto;
+  padding: 10px;
+  cursor: pointer;
+}
+.redirect:hover {
+  background-color: rgb(180, 180, 180);
+}
+
 .grid-buttons:hover {
   background-color: #e7e7e7; /* Change background color */
 }
@@ -78,6 +91,30 @@ h1 {
   padding: 20px;
   box-shadow: -5px 0 15px rgba(0, 0, 0, 0.2);
   z-index: 999; /* Ensure the side window appears above other content */
+}
+
+#closeButton {
+  border: none;
+  background-color: #cbcbcb;
+  margin: 20px;
+  border-radius: 5px;
+  width: 550px;
+  padding: 15px;
+  cursor: pointer;
+}
+#closeButton:hover {
+  background-color: rgb(180, 180, 180);
+}
+
+.trickName {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.description {
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 @keyframes App-logo-spin {

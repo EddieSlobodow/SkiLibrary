@@ -117,3 +117,37 @@ https://youtube.com/clip/UgkxuT8vPiWSHfXw-wTEe_UE52CxXUGWJ1ci?si=CoOiil4FVNGBsqo
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sGnRUkBalgg?si=CoOiil4FVNGBsqo0&amp;clip=UgkxuT8vPiWSHfXw-wTEe_UE52CxXUGWJ1ci&amp;clipt=EIw9GJRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 Flatspin 360
 Ski Addiction
+
+https://youtube.com/clip/UgkxQPYJCafQ02SjkJ8gWhqgdxI0uEK5H2El?si=Vqxb3Bu00rRwQkYJ
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wWgCIEpE0Ug?si=Vqxb3Bu00rRwQkYJ&amp;clip=UgkxQPYJCafQ02SjkJ8gWhqgdxI0uEK5H2El&amp;clipt=EKzAFRi05xU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Japan Grab
+Stomp It Tutorials
+
+https://youtube.com/clip/Ugkx67zTjc9bT029qJcLfaD5A7Bp_EVG_4Bd?si=5H_ST7Wk1USrNtBX
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x4wnHnnFPFA?si=5H_ST7Wk1USrNtBX&amp;clip=Ugkx67zTjc9bT029qJcLfaD5A7Bp_EVG_4Bd&amp;clipt=EJW1CBj_5Ag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Misty 540
+Ski Addiction
+
+https://youtube.com/clip/Ugkxd_H5wtmZ7hOiLr6zGTQoDtOk7JCdRU53?si=RbzpIu7UBfhY53a0
+<iframe width="560" height="315" src="https://www.youtube.com/embed/k10naSf1zXU?si=RbzpIu7UBfhY53a0&amp;clip=Ugkxd_H5wtmZ7hOiLr6zGTQoDtOk7JCdRU53&amp;clipt=EILZKxiujyw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Safety Grab
+Stomp It Tutorials
+
+https://youtube.com/clip/UgkxvmvzI9vAZqwPT5JUvMzMeKAmAzF7Q_wA?si=L12tXbCWyL1eE-8g
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fZMCOKqHJOg?si=L12tXbCWyL1eE-8g&amp;clip=UgkxvmvzI9vAZqwPT5JUvMzMeKAmAzF7Q_wA&amp;clipt=EPybBRjY2QU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Blunt Grab
+Empire Tutorials
+
+https://youtube.com/clip/UgkxGK8L3mqGRTqUWST5iKgG6BvlMzbgXNQ1?si=P_myKbJYv2nk8GyM
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gJ21zmTRX-k?si=P_myKbJYv2nk8GyM&amp;clip=UgkxGK8L3mqGRTqUWST5iKgG6BvlMzbgXNQ1&amp;clipt=EJrSCRii-Qk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Switch
+Ski Addiction
+
+https://youtube.com/clip/UgkxOF7wP7j26SrJc7VogYEW0qCCV3oziR9H?si=r0_PwLrnKvCZK3Uq
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gJ21zmTRX-k?si=r0_PwLrnKvCZK3Uq&amp;clip=UgkxOF7wP7j26SrJc7VogYEW0qCCV3oziR9H&amp;clipt=EPi0CxiA3As" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Rail Grind
+Ski Addiction
+
+setVideoDesc(<><p className="trickName"></p><p className="description"></p></>);
+setVideoDesc(<><p className="trickName"></p><p>Recommended prerequisites: <button className="redirect" onClick={() => onButtonClick(0)}></button></p><p className="description"></p></>);
+setVideoDesc(<><p className="trickName"></p><p>Recommended prerequisites: <button className="redirect" onClick={() => onButtonClick(0)}></button><button className="redirect" onClick={() => onButtonClick(1)}></button></p><p className="description"></p></>);
